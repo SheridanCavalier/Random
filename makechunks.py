@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+'''Chunk large fastqs or fastas into smaller files, set -t to targeted number of reads for each file'''
+
 import os
 import sys
 import mappy as mm
